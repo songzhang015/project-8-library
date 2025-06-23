@@ -1,1 +1,2 @@
-# project-8-library
+# Library
+- Small library app using HTML, CSS, and basic JS
