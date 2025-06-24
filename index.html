@@ -7,6 +7,36 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div class="header-container">
+        <h1 class="header">My Library</h1>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <table>
+                <thead>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Read</th>
+                    <th></th>
+                </thead>
+                <tbody class="library-body">
+                </tbody>
+            </table>
+            <dialog>
+                <button class="exit-btn">x</button>
+                <div class="modal-container">
+                    <h2>Add New Book</h2>
+                    <form id="addBookForm">
+                        <input type="text" class="name" placeholder="Name" maxlength="30" required>
+                        <input type="text" class="author" placeholder="Author" maxlength="30" required>
+                        <input type="number" class="pages" placeholder="Pages" max="999999" required>
+                        <button class="submit-btn" type="submit">Submit</button>
+                    </form>
+                </div>
+            </dialog>
+            <button class="add-btn">+</button>
+        </div>
+    </div>
 </body>
 </html>
